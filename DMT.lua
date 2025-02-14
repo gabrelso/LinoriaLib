@@ -712,38 +712,7 @@ do
 			}
 
 			-- // Dragging
-			Library:Connection(MainFrame.MouseButton1Down, function()
-				local Location = game:GetService("UserInputService"):GetMouseLocation()
-				Window.Dragging[1] = true
-				Window.Dragging[2] = UDim2.new(0, Location.X - MainFrame.AbsolutePosition.X, 0, Location.Y - MainFrame.AbsolutePosition.Y)
-			end)
-			Library:Connection(game:GetService("UserInputService").InputEnded, function(Input)
-				if Input.UserInputType == Enum.UserInputType.MouseButton1 and Window.Dragging[1] then
-					local Location = game:GetService("UserInputService"):GetMouseLocation()
-					Window.Dragging[1] = false
-					Window.Dragging[2] = UDim2.new(0, 0, 0, 0)
-				end
-			end)
-			Library:Connection(game:GetService("UserInputService").InputChanged, function(Input)
-				local Location = game:GetService("UserInputService"):GetMouseLocation()
-				local ActualLocation = nil
-
-				-- Dragging
-				if Window.Dragging[1] then
-					MainFrame.Position = UDim2.new(
-						0,
-						Location.X - Window.Dragging[2].X.Offset + (MainFrame.Size.X.Offset * MainFrame.AnchorPoint.X),
-						0,
-						Location.Y - Window.Dragging[2].Y.Offset + (MainFrame.Size.Y.Offset * MainFrame.AnchorPoint.Y)
-					)
-				end
-			end)
-			Library:Connection(game:GetService("UserInputService").InputBegan, function(Input)
-				if Input.KeyCode == Library.UIKey then
-					Library:SetOpen(not Library.Open)
-				end
-			end)
-			
+			MainFrame.Draggable = true
 			-- // Functions
 			function Window:UpdateTabs()
 				for Index, Page in pairs(Window.Pages) do
