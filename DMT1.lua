@@ -747,7 +747,7 @@ do
 			TabSeparationName.BackgroundTransparency = 1
 			TabSeparationName.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			TabSeparationName.BorderSizePixel = 0
-			TabSeparationName.Size = UDim2.new(0, 178, 0, 25)
+			TabSeparationName.Size = UDim2.new(0, 95, 0, 25)
 
 			local UIPadding = Instance.new("UIPadding")
 			UIPadding.Name = "UIPadding"
