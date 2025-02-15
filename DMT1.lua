@@ -621,7 +621,7 @@ do
 			MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			MainFrame.BorderSizePixel = 0
 			MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
-			MainFrame.Size = UDim2.new(0, 520, 0, 380)
+			MainFrame.Size = UDim2.new(0, 620, 0, 380)
 			MainFrame.Text = ''
 			MainFrame.AutoButtonColor = false
 			MainFrame.Parent = Lexyawin
