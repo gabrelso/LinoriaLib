@@ -747,7 +747,7 @@ do
 			TabSeparationName.BackgroundTransparency = 1
 			TabSeparationName.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			TabSeparationName.BorderSizePixel = 0
-			TabSeparationName.Size = UDim2.new(0, 95, 0, 25)
+			TabSeparationName.Size = UDim2.new(0, 178, 0, 25)
 
 			local UIPadding = Instance.new("UIPadding")
 			UIPadding.Name = "UIPadding"
@@ -779,7 +779,7 @@ do
 			ATabActive.BorderSizePixel = 0
 			ATabActive.BackgroundTransparency = 1
 			ATabActive.Position = UDim2.new(-0.011, 0, 0.0587, 0)
-			ATabActive.Size = UDim2.new(0, 185, 0, 40)
+			ATabActive.Size = UDim2.new(1, -20, 0, 30) 
 			ATabActive.Text = ""
 			ATabActive.AutoButtonColor = false
 
@@ -824,8 +824,8 @@ do
 			TabText.BackgroundTransparency = 1
 			TabText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			TabText.BorderSizePixel = 0
-			TabText.Position = UDim2.new(0.179, 0, 0.5, 0)
-			TabText.Size = UDim2.new(0, 134, 0, 22)
+			TabText.Position = UDim2.new(0.15, 0, 0.5, 0)
+			TabText.Size = UDim2.new(0.8, 0, 0, 22)
 			TabText.AnchorPoint = Vector2.new(0,0.5)
 
 			local UIPadding1 = Instance.new("UIPadding")
@@ -841,7 +841,7 @@ do
 			TabIndicator.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			TabIndicator.BorderSizePixel = 0
 			TabIndicator.Position = UDim2.new(0.899, 0, 0.5, 0)
-			TabIndicator.Size = UDim2.new(0, 4, 0, 23)
+			TabIndicator.Size = UDim2.new(0, 4, 0.8, 0)
 			TabIndicator.AnchorPoint = Vector2.new(0,0.5)
 
 			local UICorner2 = Instance.new("UICorner")
@@ -864,7 +864,7 @@ do
 			SectionHolders.BorderSizePixel = 0
 			SectionHolders.Position = UDim2.new(0, 0, -0.166, 0)
 			SectionHolders.Selectable = false
-			SectionHolders.Size = UDim2.new(0, 503, 0, 501)
+			SectionHolders.Size = UDim2.new(1, -20, 1, -60)
 			SectionHolders.SelectionGroup = false
 			SectionHolders.Visible = false
 
@@ -875,7 +875,7 @@ do
 			LeftSide.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			LeftSide.BorderSizePixel = 0
 			LeftSide.Position = UDim2.new(-0.000109, 0, 0, 0)
-			LeftSide.Size = UDim2.new(0, 245, 0, 433)
+			LeftSide.Size = UDim2.new(0.5, -10, 1, -20)
 
 			local UIListLayout1 = Instance.new("UIListLayout")
 			UIListLayout1.Name = "UIListLayout"
@@ -893,7 +893,7 @@ do
 			RightSide.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			RightSide.BorderSizePixel = 0
 			RightSide.Position = UDim2.new(0.511, 0, 0, 0)
-			RightSide.Size = UDim2.new(0, 245, 0, 433)
+			RightSide.Size = UDim2.new(0.5, -10, 1, -20)
 
 			local UIListLayout4 = Instance.new("UIListLayout")
 			UIListLayout4.Name = "UIListLayout"
