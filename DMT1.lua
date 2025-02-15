@@ -681,8 +681,8 @@ do
 			TabSectionHolder.BackgroundTransparency = 1
 			TabSectionHolder.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			TabSectionHolder.BorderSizePixel = 0
-			TabSectionHolder.Position = UDim2.new(0, 10, 0, 60)
-			TabSectionHolder.Size = UDim2.new(1, -20, 1, -60)
+			TabSectionHolder.Position = UDim2.new(0.282, 0, 0.164, 0) 
+			TabSectionHolder.Size = UDim2.new(0.96, 0, 0.88, 0)
 			
 			local FadeThing = Instance.new("Frame")
 			FadeThing.Name = "FadeThing"
