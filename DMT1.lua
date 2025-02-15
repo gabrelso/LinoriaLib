@@ -970,8 +970,8 @@ do
 			RealSection.BackgroundColor3 = Color3.fromRGB(11, 12, 15)
 			RealSection.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			RealSection.BorderSizePixel = 0
-			RealSection.Position = UDim2.new(0.00816, 0, 0.00231, 0)
-			RealSection.Size = UDim2.new(0.48, 0, 0, 0)
+			RealSection.Position = UDim2.new(0.00816, 0, 0.00231, 0)  -- Posição relativa mantida
+                        RealSection.Size = UDim2.new(0.45, -10, 0, 0)            -- 45% da largura, com margem de 10 pixels
 			RealSection.ZIndex = 5
 			RealSection.Parent = Section.Side == "left" and Section.Page.Elements.Left or Section.Side == "right" and Section.Page.Elements.Right
 			RealSection.Text = ""
@@ -998,8 +998,8 @@ do
 			SectionStartNameIcon.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			SectionStartNameIcon.BorderSizePixel = 0
 			SectionStartNameIcon.LayoutOrder = -100
-			SectionStartNameIcon.Position = UDim2.new(0.0286, 0, 0.0694, 0)
-			SectionStartNameIcon.Size = UDim2.new(0, 245, 0, 38)
+			SectionStartNameIcon.Position = UDim2.new(0.0286, 0, 0.0694, 0)  -- Posição relativa mantida
+                        SectionStartNameIcon.Size = UDim2.new(0.9, 0, 0, 38)             -- 90% da largura do RealSection
 
 			local UICorner10 = Instance.new("UICorner")
 			UICorner10.Name = "UICorner"
@@ -1026,8 +1026,8 @@ do
 			SectionText.BackgroundTransparency = 1
 			SectionText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			SectionText.BorderSizePixel = 0
-			SectionText.Position = UDim2.new(0.13, 0, 0.263, 0)
-			SectionText.Size = UDim2.new(0, 134, 0, 18)
+			SectionText.Position = UDim2.new(0.13, 0, 0.263, 0)  -- Posição relativa mantida
+                        SectionText.Size = UDim2.new(0.7, 0, 0, 18)          -- 70% da largura do SectionStartNameIcon
 
 			local UIPadding7 = Instance.new("UIPadding")
 			UIPadding7.Name = "UIPadding"
@@ -1045,8 +1045,8 @@ do
 			SectionImage.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			SectionImage.BorderSizePixel = 0
 			SectionImage.Position = UDim2.new(0.0406, 0, 0.182, 0)
-			SectionImage.Size = UDim2.new(0, 22, 0, 22)
-			SectionImage.Parent = SectionStartNameIcon
+			SectionImage.Position = UDim2.new(0.0406, 0, 0.182, 0)  -- Posição relativa mantida
+                        SectionImage.Size = UDim2.new(0, 22, 0, 22)             -- Tamanho mantido (ajuste conforme necessário)
 
 			local TheGrid = Instance.new("ImageLabel")
 			TheGrid.Name = "the_grid"
@@ -1057,8 +1057,8 @@ do
 			TheGrid.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			TheGrid.BorderSizePixel = 0
 			TheGrid.Position = UDim2.new(0.873, 0, 0.184, 0)
-			TheGrid.Size = UDim2.new(0, 22, 0, 22)
-			TheGrid.Parent = SectionStartNameIcon
+			TheGrid.Position = UDim2.new(0.873, 0, 0.184, 0)  -- Posição relativa mantida
+                        TheGrid.Size = UDim2.new(0, 22, 0, 22)            -- Tamanho mantido (ajuste conforme necessário)
 
 			SectionStartNameIcon.Parent = RealSection
 
