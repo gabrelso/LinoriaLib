@@ -971,7 +971,7 @@ do
 			RealSection.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			RealSection.BorderSizePixel = 0
 			RealSection.Position = UDim2.new(0.00816, 0, 0.00231, 0)
-			RealSection.Size = UDim2.new(0, 245, 0, 0)
+			RealSection.Size = UDim2.new(0.48, 0, 0, 0)
 			RealSection.ZIndex = 5
 			RealSection.Parent = Section.Side == "left" and Section.Page.Elements.Left or Section.Side == "right" and Section.Page.Elements.Right
 			RealSection.Text = ""
