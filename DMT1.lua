@@ -874,8 +874,8 @@ do
 			LeftSide.BackgroundTransparency = 1
 			LeftSide.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			LeftSide.BorderSizePixel = 0
-			LeftSide.Position = UDim2.new(-0.000109, 0, 0, 0)
-			LeftSide.Size = UDim2.new(0.5, -10, 1, -20)
+			LeftSide.Position = UDim2.new(0, 10, 0, 60)
+                        LeftSide.Size = UDim2.new(0.45, -15, 1, -80)
 
 			local UIListLayout1 = Instance.new("UIListLayout")
 			UIListLayout1.Name = "UIListLayout"
@@ -892,8 +892,8 @@ do
 			RightSide.BackgroundTransparency = 1
 			RightSide.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			RightSide.BorderSizePixel = 0
-			RightSide.Position = UDim2.new(0.511, 0, 0, 0)
-			RightSide.Size = UDim2.new(0.5, -10, 1, -20)
+			RightSide.Position = UDim2.new(0.55, 5, 0, 60)
+                        RightSide.Size = UDim2.new(0.45, -15, 1, -80)
 
 			local UIListLayout4 = Instance.new("UIListLayout")
 			UIListLayout4.Name = "UIListLayout"
@@ -2549,8 +2549,8 @@ do
 			RealButton.BackgroundTransparency = 1
 			RealButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			RealButton.BorderSizePixel = 0
-			RealButton.Position = UDim2.new(0, 0, 0.881, 0)
-			RealButton.Size = UDim2.new(1, 0, 0, 32)
+			RealButton.Position = UDim2.new(0, 0, 0, 0)
+                        RealButton.Size = UDim2.new(1, 0, 0, 30)
 
 			local ButtonBasically = Instance.new("TextButton")
 			ButtonBasically.Name = "Button_basically"
@@ -2564,7 +2564,7 @@ do
 			ButtonBasically.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			ButtonBasically.BorderSizePixel = 0
 			ButtonBasically.Position = UDim2.new(0.5, 0, 0.5, 0)
-			ButtonBasically.Size = UDim2.new(0, 224, 0, 28)
+                        ButtonBasically.Size = UDim2.new(0.9, 0, 0, 26)
 
 			local UICorner = Instance.new("UICorner")
 			UICorner.Name = "UICorner"
